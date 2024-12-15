@@ -7,6 +7,10 @@
   --accent-color: #0078d7;
   --transparent-bg: rgba(255, 255, 255, 0.8);
   --font-family: "Arial", sans-serif;
+  --owned: #00ff00;
+  --not-owned: #ff0000;
+  --counterfeit: #ffff00;
+  --digital-copy: #0000ff;
 }
 
 /* Dark Mode (Monokai Inspired) */
@@ -16,6 +20,10 @@
   --accent-color: #f92672;
   --transparent-bg: rgba(39, 40, 34, 0.9);
   --font-family: "Arial", sans-serif;
+  --owned: #2a772a;
+  --not-owned: #772a2a;
+  --counterfeit: #77772a;
+  --digital-copy: #2a2a77;
 }
 
 body {
@@ -39,8 +47,16 @@ h6 {
   margin: 1rem 0;
 }
 
+h2 {
+  background-color: var(--bg-color);
+  border: 2px solid var(--accent-color);
+  padding: 0.5rem;
+}
+
 h1 {
   font-size: 2.5rem;
+  padding-bottom: 1rem;
+  border-bottom: var(--accent-color) 2px solid;
 }
 
 main {
@@ -50,6 +66,20 @@ main {
   padding: 2rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+}
+
+div.pokemon-games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+div.pokemon-game {
+  background: var(--bg-color);
+  padding: 1rem;
+  border-radius: 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: var(--accent-color) 2px solid;
 }
 
 p {
@@ -92,4 +122,26 @@ footer {
   padding: 1rem;
   background: var(--transparent-bg);
   border-top: 2px solid var(--accent-color);
+}
+
+img {
+  border: 2px solid var(--accent-color);
+  max-width: 11rem;
+  height: auto;
+}
+
+div.owned {
+  background-color: var(--owned);
+}
+
+div.not-owned {
+  background-color: var(--not-owned);
+}
+
+div.counterfeit {
+  background-color: var(--counterfeit);
+}
+
+div.digital-copy {
+  background-color: var(--digital-copy);
 }
