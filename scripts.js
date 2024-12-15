@@ -25,7 +25,7 @@ const data = {
             {
                 "title": "Red",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/red.png"
             },
             {
                 "title": "Blue",
@@ -47,7 +47,7 @@ const data = {
             {
                 "title": "Silver",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/silver.png"
             },
             {
                 "title": "Crystal",
@@ -59,27 +59,27 @@ const data = {
             {
                 "title": "Ruby",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/ruby.png"
             },
             {
                 "title": "Sapphire",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/sapphire.png"
             },
             {
                 "title": "Emerald",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/emerald.png"
             },
             {
                 "title": "FireRed",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/firered.png"
             },
             {
                 "title": "LeafGreen",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/leafgreen.png"
             }
         ],
         "gen4": [
