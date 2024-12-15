@@ -1,0 +1,95 @@
+/* Light and Dark Mode Theme */
+
+/* Light Mode (Frutiger Inspired) */
+.light-theme {
+  --bg-color: #f8f9fa;
+  --text-color: #333333;
+  --accent-color: #0078d7;
+  --transparent-bg: rgba(255, 255, 255, 0.8);
+  --font-family: "Arial", sans-serif;
+}
+
+/* Dark Mode (Monokai Inspired) */
+.dark-theme {
+  --bg-color: #272822;
+  --text-color: #f8f8f2;
+  --accent-color: #f92672;
+  --transparent-bg: rgba(39, 40, 34, 0.9);
+  --font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: var(--accent-color);
+  text-transform: none;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+main {
+  margin: auto;
+  max-width: 60em;
+  background: var(--transparent-bg);
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: var(--accent-color);
+  color: var(--bg-color);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #0056a4;
+  color: var(--text-color);
+}
+
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--transparent-bg);
+  border-top: 2px solid var(--accent-color);
+}
