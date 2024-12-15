@@ -69,9 +69,9 @@ main {
 }
 
 div.pokemon-games {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 div.pokemon-game {
@@ -144,4 +144,63 @@ div.counterfeit {
 
 div.digital-copy {
   background-color: var(--digital-copy);
+}
+
+div.legend {
+    border: var(--accent-color) 2px solid;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin-top: 2rem;
+    background: var(--transparent-bg);
+}
+
+div.legend h5 {
+    grid-column: span 2;
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+div.legend div.owned,
+div.legend div.not-owned,
+div.legend div.counterfeit,
+div.legend div.digital-copy {
+    padding: 0.5rem;
+    border: var(--accent-color) 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.legend div.owned {
+    background-color: var(--owned);
+}
+
+div.legend div.not-owned {
+    background-color: var(--not-owned);
+}
+
+div.legend div.counterfeit {
+    background-color: var(--counterfeit);
+}
+
+div.legend div.digital-copy {
+    background-color: var(--digital-copy);
+}
+
+div.legend div.owned p,
+div.legend div.not-owned p,
+div.legend div.counterfeit p,
+div.legend div.digital-copy p {
+    margin: 0;
+    padding: 0.3rem 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: var(--accent-color) 2px solid;
+    background-color: var(--bg-color);
 }
