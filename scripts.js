@@ -12,6 +12,13 @@ function toggleTheme() {
 
 document.getElementById('themeToggle').addEventListener('click', toggleTheme);
 
+// initially set the theme based on the time of day
+document.addEventListener('DOMContentLoaded', () => {
+    const hour = new Date().getHours();
+    const theme = (hour >= 7 && hour < 17) ? 'light-theme' : 'dark-theme';
+    document.body.classList.add(theme);
+});
+
 const data = {
     "games": {
         "gen1": [
