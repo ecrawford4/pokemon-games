@@ -2,37 +2,37 @@
 
 /* Light Mode (Frutiger Inspired) */
 .light-theme {
-  --bg-color: #f8f9fa;
-  --text-color: #333333;
-  --accent-color: #0078d7;
-  --transparent-bg: rgba(255, 255, 255, 0.8);
-  --font-family: "Arial", sans-serif;
-  --owned: #00ff00;
-  --not-owned: #ff0000;
-  --counterfeit: #ffff00;
-  --digital-copy: #0000ff;
+    --bg-color: #f8f9fa;
+    --text-color: #333333;
+    --accent-color: #0078d7;
+    --transparent-bg: rgba(255, 255, 255, 0.8);
+    --font-family: "Arial", sans-serif;
+    --owned: #00ff00;
+    --not-owned: #ff0000;
+    --counterfeit: #ffff00;
+    --digital-copy: #0000ff;
 }
 
 /* Dark Mode (Monokai Inspired) */
 .dark-theme {
-  --bg-color: #272822;
-  --text-color: #f8f8f2;
-  --accent-color: #f92672;
-  --transparent-bg: rgba(39, 40, 34, 0.9);
-  --font-family: "Arial", sans-serif;
-  --owned: #2a772a;
-  --not-owned: #772a2a;
-  --counterfeit: #77772a;
-  --digital-copy: #2a2a77;
+    --bg-color: #272822;
+    --text-color: #f8f8f2;
+    --accent-color: #f92672;
+    --transparent-bg: rgba(39, 40, 34, 0.9);
+    --font-family: "Arial", sans-serif;
+    --owned: #2a772a;
+    --not-owned: #772a2a;
+    --counterfeit: #77772a;
+    --digital-copy: #2a2a77;
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: var(--font-family);
-  margin: 0;
-  padding: 0;
-  transition: all 0.3s ease;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
 }
 
 h1,
@@ -41,166 +41,202 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
-  color: var(--accent-color);
-  text-transform: none;
-  margin: 1rem 0;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-transform: none;
+    margin: 1rem 0;
 }
 
 h2 {
-  background-color: var(--bg-color);
-  border: 2px solid var(--accent-color);
-  padding: 0.5rem;
+    background-color: var(--bg-color);
+    border: 2px solid var(--accent-color);
+    padding: 0.5rem;
 }
 
 h1 {
-  font-size: 2.5rem;
-  padding-bottom: 1rem;
-  border-bottom: var(--accent-color) 2px solid;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: var(--accent-color) 2px solid;
 }
 
 main {
-  margin: auto;
-  max-width: 60em;
-  background: var(--transparent-bg);
-  padding: 2rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+    margin: auto;
+    max-width: 60em;
+    background: var(--transparent-bg);
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 div.pokemon-games {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
 
 div.pokemon-game {
-  background: var(--bg-color);
-  padding: 1rem;
-  border-radius: 0px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border: var(--accent-color) 2px solid;
+    background: var(--bg-color);
+    padding: 1rem;
+    border-radius: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: var(--accent-color) 2px solid;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
 }
 
 a {
-  color: var(--accent-color);
-  text-decoration: none;
-  font-weight: bold;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 button {
-  background: var(--accent-color);
-  color: var(--bg-color);
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: all 0.3s ease;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-  background: #0056a4;
-  color: var(--text-color);
+    background: #0056a4;
+    color: var(--text-color);
 }
 
 footer {
-  text-align: center;
-  font-size: 0.875rem;
-  margin-top: 2rem;
-  padding: 1rem;
-  background: var(--transparent-bg);
-  border-top: 2px solid var(--accent-color);
+    text-align: center;
+    font-size: 0.875rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: var(--transparent-bg);
+    border-top: 2px solid var(--accent-color);
 }
 
 img {
-  border: 2px solid var(--accent-color);
-  max-width: 11rem;
-  height: auto;
+    border: 2px solid var(--accent-color);
+    max-width: 11rem;
+    height: auto;
 }
 
 div.owned {
-  background-color: var(--owned);
+    background-color: var(--owned);
 }
 
 div.not-owned {
-  background-color: var(--not-owned);
+    background-color: var(--not-owned);
 }
 
 div.counterfeit {
-  background-color: var(--counterfeit);
+    background-color: var(--counterfeit);
 }
 
 div.digital-copy {
-  background-color: var(--digital-copy);
+    background-color: var(--digital-copy);
 }
 
 div.legend {
-  border: var(--accent-color) 2px solid;
-  width: 100%;
-  max-width: 20rem;
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.5rem;
-  margin-top: 2rem;
-  background: var(--transparent-bg);
+    border: var(--accent-color) 2px solid;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin-top: 2rem;
+    background: var(--transparent-bg);
 }
 
 div.legend h5 {
-  grid-column: span 2;
-  margin: 0;
-  text-align: left;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+    grid-column: span 2;
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
 div.legend div.owned,
 div.legend div.not-owned,
 div.legend div.counterfeit,
 div.legend div.digital-copy {
-  padding: 0.5rem;
-  border: var(--accent-color) 2px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    padding: 0.5rem;
+    border: var(--accent-color) 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.legend div.owned {
-  background-color: var(--owned);
+    background-color: var(--owned);
 }
 
 div.legend div.not-owned {
-  background-color: var(--not-owned);
+    background-color: var(--not-owned);
 }
 
 div.legend div.counterfeit {
-  background-color: var(--counterfeit);
+    background-color: var(--counterfeit);
 }
 
 div.legend div.digital-copy {
-  background-color: var(--digital-copy);
+    background-color: var(--digital-copy);
 }
 
 div.legend div.owned p,
 div.legend div.not-owned p,
 div.legend div.counterfeit p,
 div.legend div.digital-copy p {
-  margin: 0;
-  padding: 0.3rem 0.5rem;
-  padding-top: 0;
-  padding-bottom: 0;
-  border: var(--accent-color) 2px solid;
-  background-color: var(--bg-color);
+    margin: 0;
+    padding: 0.3rem 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: var(--accent-color) 2px solid;
+    background-color: var(--bg-color);
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    div.pokemon-games {
+        grid-template-columns: 1fr;
+    }
+
+    div.pokemon-game {
+        padding: 0.5rem;
+    }
+
+    img {
+        max-width: 8rem;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    footer {
+        font-size: 0.75rem;
+    }
+
+    div.legend {
+        grid-template-columns: 1fr;
+    }
 }
