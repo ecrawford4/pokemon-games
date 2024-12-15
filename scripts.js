@@ -10,12 +10,9 @@ function toggleTheme() {
     }
 }
 
-// Example: Attach to a button
 document.getElementById('themeToggle').addEventListener('click', toggleTheme);
 
-// Assuming data.json is fetched or imported as `data` object
 const data = {
-    // JSON data here (truncated for brevity)
     "games": {
         "gen1": [
             {
