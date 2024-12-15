@@ -252,10 +252,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const gameImg = document.createElement("img");
             gameImg.src = game.imgSrc;
-            gameImg.alt = `Pokemon ${game.title}`;
+            gameImg.alt = `Pok&eacute;mon ${game.title}`;
 
             const gameTitle = document.createElement("h2");
-            gameTitle.textContent = `Pokemon ${game.title}`;
+            gameTitle.textContent = `Pok&eacute;mon ${game.title}`;
 
             // Append elements to the game div
             gameDiv.appendChild(gameImg);
