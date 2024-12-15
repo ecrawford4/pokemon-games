@@ -118,17 +118,17 @@ const data = {
             {
                 "title": "White",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/white.png"
             },
             {
                 "title": "Black 2",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/black_2.png"
             },
             {
                 "title": "White 2",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/white_2.png"
             }
         ],
         "gen6": [
@@ -140,7 +140,7 @@ const data = {
             {
                 "title": "Y",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/y.png"
             },
             {
                 "title": "Omega Ruby",
@@ -150,19 +150,19 @@ const data = {
             {
                 "title": "Alpha Sapphire",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/a_sapphire.png"
             }
         ],
         "gen7": [
             {
                 "title": "Sun",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/sun.png"
             },
             {
                 "title": "Moon",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/moon.png"
             },
             {
                 "title": "Ultra Sun",
@@ -199,7 +199,7 @@ const data = {
             {
                 "title": "Brilliant Diamond",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/b_diamond.png"
             },
             {
                 "title": "Shining Pearl",
