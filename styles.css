@@ -3,10 +3,11 @@
 /* Light Mode (Frutiger Inspired) */
 .light-theme {
     --bg-color: #f8f9fa;
+    --bg-darker: #8ab4df;
     --text-color: #333333;
     --accent-color: #0078d7;
     --transparent-bg: rgba(255, 255, 255, 0.8);
-    --font-family: "Arial", sans-serif;
+    --font-family: "Frutiger", sans-serif;
     --owned: #00ff00;
     --not-owned: #ff0000;
     --counterfeit: #ffff00;
@@ -16,10 +17,11 @@
 /* Dark Mode (Monokai Inspired) */
 .dark-theme {
     --bg-color: #272822;
+    --bg-darker: #110011;
     --text-color: #f8f8f2;
     --accent-color: #f92672;
     --transparent-bg: rgba(39, 40, 34, 0.9);
-    --font-family: "Arial", sans-serif;
+    --font-family: "Frutiger", sans-serif;
     --owned: #2a772a;
     --not-owned: #772a2a;
     --counterfeit: #77772a;
@@ -27,7 +29,7 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--bg-darker);
     color: var(--text-color);
     font-family: var(--font-family);
     margin: 0;
