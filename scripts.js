@@ -96,7 +96,7 @@ const data = {
             {
                 "title": "Platinum",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/platinum.png"
             },
             {
                 "title": "HeartGold",
@@ -135,7 +135,7 @@ const data = {
             {
                 "title": "X",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/x.png"
             },
             {
                 "title": "Y",
@@ -145,7 +145,7 @@ const data = {
             {
                 "title": "Omega Ruby",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/o_ruby.png"
             },
             {
                 "title": "Alpha Sapphire",
@@ -172,7 +172,7 @@ const data = {
             {
                 "title": "Ultra Moon",
                 "status": "owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/u_moon.png"
             },
             {
                 "title": "Let's Go Pikachu",
