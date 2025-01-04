@@ -30,19 +30,19 @@ const data = {
             {
                 "title": "Blue",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Yellow",
                 "status": "counterfeit",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             }
         ],
         "gen2": [
             {
                 "title": "Gold",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Silver",
@@ -52,7 +52,7 @@ const data = {
             {
                 "title": "Crystal",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             }
         ],
         "gen3": [
@@ -86,12 +86,12 @@ const data = {
             {
                 "title": "Diamond",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Pearl",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Platinum",
@@ -101,19 +101,19 @@ const data = {
             {
                 "title": "HeartGold",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "SoulSilver",
                 "status": "counterfeit",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             }
         ],
         "gen5": [
             {
                 "title": "Black",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "White",
@@ -167,7 +167,7 @@ const data = {
             {
                 "title": "Ultra Sun",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Ultra Moon",
@@ -177,24 +177,24 @@ const data = {
             {
                 "title": "Let's Go Pikachu",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Let's Go Eevee",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             }
         ],
         "gen8": [
             {
                 "title": "Sword",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Shield",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Brilliant Diamond",
@@ -204,24 +204,24 @@ const data = {
             {
                 "title": "Shining Pearl",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Legends Arceus",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             }
         ],
         "gen9": [
             {
                 "title": "Scarlet",
                 "status": "digital-copy",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             },
             {
                 "title": "Violet",
                 "status": "not-owned",
-                "imgSrc": "https://pbs.twimg.com/profile_images/1845711060428361754/3UiRtJJs_400x400.jpg"
+                "imgSrc": "./assets/temp.jpg"
             }
         ]
     }
